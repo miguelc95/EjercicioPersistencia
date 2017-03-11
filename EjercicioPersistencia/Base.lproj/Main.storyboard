@@ -98,18 +98,18 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="celdaArticulos" tableViewCell="6Jd-Xx-pja" id="OP2-dE-C8q">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eg9-C6-mAI">
-                                            <rect key="frame" x="15" y="4" width="34" height="21"/>
+                                            <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qze-gh-DpK">
-                                            <rect key="frame" x="15" y="25" width="44" height="15"/>
+                                            <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
@@ -118,7 +118,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="ver" id="eWx-ig-iu3"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ver" id="eWx-ig-iu3"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -130,7 +130,7 @@
                     <navigationItem key="navigationItem" title="Title" id="Iu6-NR-lfL">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="pb6-R4-6Wc">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" identifier="agregar" id="kYD-RG-QXD"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="agregar" id="kYD-RG-QXD"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
